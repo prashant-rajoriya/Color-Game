@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Color Guessing Game</title>
+  </head>
+  <body>
+    <h1>The Great Game of
+      <br>
+      <span id="colorDisplay">RGB Color</span>
+      <br>
+      Choosing</h1>
+    <div class="allBtn">
+      <button type="button" name="button" id="reset">New Colors</button>
+      <span id="gameState"></span>
+      <button type="button" name="button" class="mode" id="easyBtn">Easy</button>
+      <button type="button" name="button" class="mode selected" id="hardBtn">Hard</button>
+    </div>
+    <div class="gameScores">
+      <div class="gameStatus">
+        Trys left : <span class="winLose">3</span>
+      </div>
+      <div class="gameStatus">
+        Wins : <span class="winLose">0</span>
+      </div>
+      <div class="gameStatus">
+        Loses :<span class="winLose">0</span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="squares"></div>
+      <div class="squares"></div>
+      <div class="squares"></div>
+      <div class="squares"></div>
+      <div class="squares"></div>
+      <div class="squares"></div>
+    </div>
+
+
+
+    <script type="text/javascript" src="game.js" charset="utf-8"></script>
+  </body>
+</html>
